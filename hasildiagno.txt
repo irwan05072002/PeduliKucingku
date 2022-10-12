@@ -1,0 +1,45 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RABIES = 1, 2, 3, 4, 5, 6
+
+[TERPENUHI] kondisi 1 = jika probabilitas == 100%, penyakit vonis ada, 
+dan create database
+[TERPENUHI] kondisi 2 = jika probabilitas >= 1 && <=99, penyakit vonis tidak ada
+keterangan probabilitas setiap penyakit ada
+[TERPENUHI] kondisi 3 = jika probabilitas < 1 (0), data hasil diagnosa kosong
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      

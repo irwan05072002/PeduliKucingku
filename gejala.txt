@@ -1,0 +1,24 @@
+list gejala "
+
+G1 - demam
+G2 - hipersalivasi (keluar air lir berlebihan)
+G3 - menggigit-gigit benda
+G4 - pupil melebar
+G5 - perubahan abnoral pada nafsu makan / rakus
+G6 - agresif
+G7 - hidung berair
+G8 - mata berair
+G9 - mata memerah
+G10 - luka pada lidah dan bibir
+G11 - bersin
+G12 - nafsu makan turun
+G13 - diare
+G14 - muntah
+G15 - dehidrasi
+G16 - lesu
+G17 - batuk
+G18 - radang paru-paru
+G19 - susah bernafas
+G20 - depresi
+G21 - hidung berlendir
+G22 - sakit sendi

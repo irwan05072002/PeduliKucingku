@@ -1,0 +1,256 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+
+/* box registration */
+.box-registration {
+    position: relative;
+    border-bottom: 2px dashed black;
+    width: 600px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: rgb(82, 100, 255);
+    /* background: linear-gradient(90deg, rgb(47, 80, 170), rgb(41, 22, 214), rgb(20, 0, 90)); */
+    padding: 30px 0px 20px 0px;
+    border-radius: 30px 30px 0px 0px;
+    box-shadow: 0px 0px 10px 1px rgb(128, 128, 128);
+}
+
+/* head element */
+.box-registration .head {
+    height: auto;
+    /* background-color: rgba(241, 241, 241, 0.233); */
+    padding: 5px 5px;
+}
+
+/* teks form registration account */
+.box-registration .head h1 {
+    text-align: center;
+    font-size: 1.54em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* noticeelement */
+.notice {
+    width: auto;
+    height: auto;
+    /* background-color: rgba(241, 241, 241, 0.233); */
+    padding: 5px 5px;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: arial;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.notice p {
+    color: white;
+}
+
+.box-registration .form_element {
+    width: auto;
+    background-color: rgba(241, 241, 241, 0.233);
+    margin-top: 20px;
+    padding: 20px 50px;
+}
+
+/* setting tr */
+.box-registration .form_element table {
+    padding: 10px 10px 10px 10px;
+    /* background-color: lightblue; */
+    border: none;
+}
+
+.box-registration .form_element table tr td {
+    padding: 10px 5px 10px 10px;
+    border: none;
+    /* background-color: rgb(129, 37, 0); */
+    /* border: 1px solid red; */
+}
+
+
+
+/* setting button submit */
+#btn_back {
+    padding: 15px 20px;
+    /* width: 100%; */
+    background-color: rgb(255, 36, 36);
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 2px 1px rgb(149, 186, 255);
+    color: white;
+    font-size: 1.01em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+#btn_back:hover {
+    background-color: rgb(224, 0, 0);
+    transition: 1s;
+}
+
+#btn_submit_reg {
+    padding: 15px 20px;
+    /* width: 100%; */
+    margin-left: 56%;
+    margin-right: auto;
+    background-color: rgb(28, 100, 255);
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 2px 1px rgb(149, 186, 255);
+    color: white;
+    font-size: 1.01em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+#btn_submit_reg:hover {
+    background-color: rgb(0, 70, 221);
+    transition: 1s;
+    box-shadow: 0px 0px 10px 2px rgb(255, 255, 255);
+}
+
+
+/* setting td */
+.box-registration .form_element table tr td:nth-child(1) {
+    width: 20%;
+}
+
+/* setting td */
+.box-registration .form_element table tr td:nth-child(2) {
+    width: 10%;
+}
+
+/* setting padding in last-child td */
+.box-registration .form_element table tr:last-child td:nth-child(1) {
+    /* background-color: red; */
+    padding: 30px 0px 30px 0px;
+}
+
+.box-registration .form_element table tr:last-child td:nth-child(2) {
+    /* background-color: red; */
+    padding: 30px 10px 30px 0px;
+}
+
+/* setting label */
+.box-registration .form_element table tr td label {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+/* setting input type -> text */
+.box-registration .form_element table tr td input[type="text"],
+.box-registration .form_element table tr td input[type="password"] {
+    background-color: white;
+    width: 95%;
+    padding: 10px 0px 10px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.box-registration .form_element table tr td input[type="text"]:focus,
+.box-registration .form_element table tr td input[type="password"]:focus {
+    /* border: 1px solid blue; */
+    outline: none;
+}
+
+.box-registration .form_element table tr td input[type="text"]:hover,
+.box-registration .form_element table tr td input[type="password"]:hover {
+    transition: 1s;
+    animation: cliponclap 1.5s infinite ease-in;
+}
+
+@keyframes cliponclap {
+    50% {
+        /* border: 1px solid blue; */
+        transition: 1s;
+        box-shadow: 0px 0px 5px 1px rgb(0, 17, 255);
+    }
+
+    100% {
+        /* border: 1px solid blue; */
+        transition: 1s;
+        box-shadow: 0px 0px 5px 1px rgb(0, 17, 255);
+    }
+
+}
+
+
+
+/* setting input type -> select */
+.box-registration .form_element table tr td select {
+    width: 250px;
+    padding: 7px 10px;
+    background-color: rgb(247, 247, 247);
+    border: none;
+    transition: 1s;
+    color: black;
+    border-radius: 5px;
+}
+
+.box-registration .form_element table tr td select:focus {
+    color: blue;
+    background-color: rgba(230, 230, 230, 0.507);
+    transition: 1s;
+}
+
+.box-registration .form_element table tr td select option {
+    margin-top: 20px;
+}
+
+
+
+/* message element */
+.box-registration .message {
+    background-color: rgb(0, 38, 255);
+    margin-top: 20px;
+    padding: 20px 40px;
+}
+
+/* head message element */
+.box-registration .message .head-message {
+    width: 100px;
+    height: auto;
+    /* background-color: red; */
+    padding: 10px 10px;
+    margin-bottom: 20px;
+}
+
+/* text head message element */
+
+.box-registration .message .head-message h4 {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: arial;
+}
+
+.box-registration .message .text-message {
+    width: auto;
+    height: auto;
+    /* background-color: red; */
+    padding: 10px 10px;
+}
+
+.box-registration .message .text-message p {
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+    font-family: arial;
+    font-size: 13px;
+    text-align: justify;
+}

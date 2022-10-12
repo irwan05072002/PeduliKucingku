@@ -1,0 +1,146 @@
+[
+  {
+    "prov": "ACEH",
+    "value": "ACEH"
+  },
+  {
+    "prov": "SUMATERA UTARA",
+    "value": "SUMUT"
+  },
+  {
+    "prov": "SUMATERA BARAT",
+    "value": "SUMBAR"
+  },
+  {
+    "prov": "RIAU",
+    "value": "RIAU"
+  },
+  {
+    "prov": "KEPULAUAN RIAU",
+    "value": "KEPRIAU"
+  },
+  {
+    "prov": "JAMBI",
+    "value": "JBI"
+  },
+  {
+    "prov": "BENGKULU",
+    "value": "BKLU"
+  },
+  {
+    "prov": "SUMATERA SELATAN",
+    "value": "SULTAN"
+  },
+  {
+    "prov": "KEPULAUAN BANGKA BELITUNG",
+    "value": "KEPBATUNG"
+  },
+  {
+    "prov": "LAMPUNG",
+    "value": "LMPNG"
+  },
+  {
+    "prov": "BANTEN",
+    "value": "BTN"
+  },
+  {
+    "prov": "JAWA BARAT",
+    "value": "JABAR"
+  },
+  {
+    "prov": "DKI JAKARTA",
+    "value": "DKI"
+  },
+  {
+    "prov": "JAWA TENGAH",
+    "value": "JATENG"
+  },
+  {
+    "prov": "JAWA TIMUR",
+    "value": "JATIM"
+  },
+  {
+    "prov": "DI YOGYAKARTA",
+    "value": "DIYOGYA"
+  },
+  {
+    "prov": "NUSA TENGARA BARAT",
+    "value": "NTB"
+  },
+  {
+    "prov": "NUSA TENGGARA TIMUR",
+    "value": "NTT"
+  },
+  {
+    "prov": "KALIMANTAN BARAT",
+    "value": "KALBAR"
+  },
+  {
+    "prov": "KALIMANTAN SELATAN",
+    "value": "KALSEL"
+  },
+  {
+    "prov": "KALIMANTAN TENGAH",
+    "value": "KALTENG"
+  },
+  {
+    "prov": "KALIMANTAN TIMUR",
+    "value": "KALTIM"
+  },
+  {
+    "prov": "KALIMANTAN UTARA",
+    "value": "KALUT"
+  },
+  {
+    "prov": "GORONTALO",
+    "value": "GLO"
+  },
+  {
+    "prov": "SULAWESI SELATAN",
+    "value": "SULSEL"
+  },
+  {
+    "prov": "SULAWESI TENGGARA",
+    "value": "SULTENGGA"
+  },
+  {
+    "prov": "SULAWESI TENGAH",
+    "value": "SULTENG"
+  },
+  {
+    "prov": "SULAWESI UTARA",
+    "value": "SULUT"
+  },
+  {
+    "prov": "SULAWESI BARAT",
+    "value": "SULBAR"
+  },
+  {
+    "prov": "MALUKU",
+    "value": "MLU"
+  },
+  {
+    "prov": "MALUKU UTARA",
+    "value": "MALUT"
+  },
+  {
+    "prov": "PAPUA",
+    "value": "PAPUA"
+  },
+  {
+    "prov": "PAPUA BARAT",
+    "value": "PAPBAR"
+  },
+  {
+    "prov": "PAPUA TENGAH",
+    "value": "PAPTENG"
+  },
+  {
+    "prov": "PAPUA PEGUNUNGAN",
+    "value": "PAPPENG"
+  },
+  {
+    "prov": "PAPUA SELATAN",
+    "value": "PAPSEL"
+  }
+]

@@ -1,0 +1,26 @@
+created : 06/08/2022 jam 02:49 pagi
+
+databases
+    [aspakpm_db]
+
+tables
+    [users] == SUDAH DIBUAT
+        -id_user           = primary_key int() auto_increment
+        -username          = char(255)
+        -pwd_asli          = varchar(100)
+        -pwd_enkripsi      = varchar(150)
+        -nama_user         = varchar(50)
+        -jk_user           = varchar(30)
+        -umur_user         = char(3)
+        -provinsi_user     = varchar(150)
+        -kabupaten_user    = varchar(150)
+        -kecamatan_user    = varchar(150)
+        -kelurahan_user    = varchar(150)
+        -alamat_user       = varchar(255)
+        -kodepos_user      = varchar(10)
+        -nohp_user         = char(15)
+ 
+
+    [gejala] == SUDAH DIBUAT
+        -kode_gejala         = primary_key int() auto_increment
+        -ket_gejala          = varchar(255);
