@@ -12,7 +12,7 @@ if(!isset($_SESSION["LOGIN"]) or !isset($_SESSION["username_user"]) or !isset($_
 
 <!DOCTYPE html>
 <html lang="en">
-
+""
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
